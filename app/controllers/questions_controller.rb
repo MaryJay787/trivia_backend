@@ -11,6 +11,6 @@ class QuestionsController < ApplicationController
     private
 
     def questions_params
-        params.permit(:ask, :answer, :asked)
+        params.permit(:ask, :answer, :asked, :category_id)
     end
 end

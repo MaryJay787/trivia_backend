@@ -1,11 +1,12 @@
 class QuestionsController < ApplicationController
     def index
-        @questions = Question.all
-        json_response(@questions)
+        questions = Question.all
+        render json: {allquestions: questions}
     end
 
     def show
-        json_response(@questions)
+        question = Question.find(params[:id])
+        render json: {onequestion: question}
     end
 
     private

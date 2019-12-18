@@ -1,11 +1,12 @@
 class CategoriesController < ApplicationController
     def index
-        @categories = Category.all
-        json_response(@categories)
+        categories = Category.all
+        render json: {allcats: categories}
     end
 
     def show
-        json_response(@categories)
+        cat = Category.find(params[:id])
+        render json: {onecat: cat}
     end
 
     private

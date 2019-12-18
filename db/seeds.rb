@@ -19,8 +19,21 @@ Question.create(category_id: catone.id, ask: 'The name of those who submit to Go
 Question.create(category_id: catone.id, ask: 'What percent of their possessions value are Muslims required to contribute to a public treasury:', answer: '2.5%', asked: false )
 Question.create(category_id: catone.id, ask: 'The most important of the Five Pillars of Islam is:', answer: 'Shahada', asked: false )
 
-# Question.create(category_id: cattwo.id, ask: 'Who has Allah mentioned in the Quran as the best example to follow:', answer: 'Prophet Muhammad (PBUH)', asked: false )
-# Question.create(category_id: cattwo.id, ask: '', answer: '', asked: false )
-# Question.create(category_id: cattwo.id, ask: '', answer: '', asked: false )
+Question.create(category_id: cattwo.id, ask: 'Who has Allah mentioned in the Quran as the best example to follow:', answer: 'Prophet Muhammad (PBUH)', asked: false )
+Question.create(category_id: cattwo.id, ask: 'Which prophet was born miraculously without the intervention of a man', answer: 'Prophet Issah (PBUH)', asked: false )
+Question.create(category_id: cattwo.id, ask: 'How many prophets are mentioned in the Quran?', answer: '25', asked: false )
+
+Question.create(category_id: catfour.id, ask: 'What is the meaning of the word “Qur’an”:', answer: 'That which is Read', asked: false )
+Question.create(category_id: catfour.id, ask: 'Where was the Qur’an revealed first:', answer: 'In the cave of Hira (Makkah)', asked: false )
+Question.create(category_id: catfour.id, ask: 'On which night was the Qur’an first revealed:', answer: 'Lailatul-Qadr (Night of the Power) in the month of Ramadan', asked: false )
+Question.create(category_id: catfour.id, ask: 'Through whom was the Qur’an revealed:', answer: 'Through Angel Jibreel (Gabriel)', asked: false )
+Question.create(category_id: catfour.id, ask: 'What was the interval between the first and the second revelation:', answer: '2 years and six months', asked: false )
+
+# Question.create(category_id: catfive.id, ask: '', answer: '', asked: false )
+
+
+
+
+
 
 

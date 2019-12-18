@@ -7,4 +7,10 @@ class QuestionsController < ApplicationController
     def show
         json_response(@questions)
     end
+
+    private
+
+    def questions_params
+        params.permit(:ask, :answer, :asked)
+    end
 end

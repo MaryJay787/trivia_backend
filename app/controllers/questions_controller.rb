@@ -1,7 +1,8 @@
 class QuestionsController < ApplicationController
     def index
-        cat = Category.find(params[:id])
-        questions = Question.all.find(params[:cat.id])
+        cat = Category.find(params[:category_id])
+        id = cat.id
+        questions = Question.all.find(params[:id])
         render json: {allquestions: questions}
     end
 

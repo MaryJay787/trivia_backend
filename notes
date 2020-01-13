@@ -1,0 +1,5 @@
+### THINGS YOU NEED TO FIX ###
+
+1.Seed questions still not populating...
+    a.Try looking at questions controller and look what is being 
+    sent to questions json and routes

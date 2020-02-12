@@ -13,27 +13,27 @@ Category.create(title: 'Women in Islam')
 Category.create(title: 'Quran')
 Category.create(title: 'Hadith')
 # byebug
-Question.create!(category_id: Category.first.id, answer: 'Give Zakat', ask: 'According to the Five Pillars of Islam, every Muslim must:')
-byebug
-# Question.create(ask: 'I bear witness that there is no deity but God and I bear witness that Muhammad is the messenger and servant of God.', answer: 'Shahada', asked: "false", category_id: catone.id )
-# Question.create(ask: 'One obligation of a Muslim is to make at least one pilgrimage to:', answer: 'Mecca', asked: "false", category_id: catone.id )
-# Question.create(ask: 'During Ramadan Muslims are expected to:', answer: 'Fast from sunrise to sunset', asked: "false", category_id: catone.id )
-# Question.create(ask: 'The name of those who submit to God is:', answer: 'Muslims', asked: "false", category_id: catone.id )
-# Question.create(ask: 'What percent of their possessions value are Muslims required to contribute to a public treasury:', answer: '2.5%', asked: "false", category_id: catone.id )
-# Question.create(ask: 'The most important of the Five Pillars of Islam is:', answer: 'Shahada', asked: "false", category_id: catone.id )
+Question.create(category_id: Category.first.id, answer: 'Give Zakat', ask: 'According to the Five Pillars of Islam, every Muslim must:')
 
-# Question.create(ask: 'Who has Allah mentioned in the Quran as the best example to follow:', answer: 'Prophet Muhammad (PBUH)', asked: "false", category_id: cattwo.id )
-# Question.create(ask: 'Which prophet was born miraculously without the intervention of a man', answer: 'Prophet Issah (PBUH)', asked: "false", category_id: cattwo.id )
-# Question.create(ask: 'How many prophets are mentioned in the Quran?', answer: '25', asked: "false", category_id: cattwo.id )
+Question.create(category_id: Category.first.id, answer: 'Shahada', ask: 'I bear witness that there is no deity but God and I bear witness that Muhammad is the messenger and servant of God.')
+Question.create(category_id: Category.first.id, answer: 'Mecca', ask: 'One obligation of a Muslim is to make at least one pilgrimage to:')
+Question.create(category_id: Category.first.id, answer: 'Fast from sunrise to sunset', ask: 'During Ramadan Muslims are expected to:')
+Question.create(category_id: Category.first.id, answer: 'Muslims', ask: 'The name of those who submit to God is:')
+Question.create(category_id: Category.first.id, answer: '2.5%', ask: 'What percent of their possessions value are Muslims required to contribute to a public treasury:')
+Question.create(category_id: Category.first.id, answer: 'Shahada', ask: 'The most important of the Five Pillars of Islam is:')
 
-# Question.create(ask: 'What is the meaning of the word “Qur’an”:', answer: 'That which is Read', asked: "false", category_id: catfour.id )
-# Question.create(ask: 'Where was the Qur’an revealed first:', answer: 'In the cave of Hira (Makkah)', asked: "false", category_id: catfour.id )
-# Question.create(ask: 'On which night was the Qur’an first revealed:', answer: 'Lailatul-Qadr (Night of the Power) in the month of Ramadan', asked: "false", category_id: catfour.id )
-# Question.create(ask: 'Through whom was the Qur’an revealed:', answer: 'Through Angel Jibreel (Gabriel)', asked: "false", category_id: catfour.id )
-# Question.create(ask: 'What was the interval between the first and the second revelation:', answer: '2 years and six months', asked: "false", category_id: catfour.id )
+Question.create(category_id: Category.second.id, answer: 'Prophet Muhammad (PBUH)', ask: 'Who has Allah mentioned in the Quran as the best example to follow:')
+Question.create(category_id: Category.second.id, answer: 'Prophet Issah (PBUH)', ask: 'Which prophet was born miraculously without the intervention of a man')
+Question.create(category_id: Category.second.id, answer: '25', ask: 'How many prophets are mentioned in the Quran?')
+
+Question.create(category_id: Category.fourth.id, answer: 'That which is Read', ask: 'What is the meaning of the word “Qur’an”:')
+Question.create(category_id: Category.fourth.id, answer: 'In the cave of Hira (Makkah)', ask: 'Where was the Qur’an revealed first:')
+Question.create(category_id: Category.fourth.id, answer: 'Lailatul-Qadr (Night of the Power) in the month of Ramadan', ask: 'On which night was the Qur’an first revealed:')
+Question.create(category_id: Category.fourth.id, answer: 'Through Angel Jibreel (Gabriel)', ask: 'Through whom was the Qur’an revealed:')
+Question.create(category_id: Category.fourth.id, answer: '2 years and six months', ask: 'What was the interval between the first and the second revelation:')
 # Question.create(category_id: catfive.id, ask: '', answer: '', asked: false )
 
-
+# byebug
 
 
 

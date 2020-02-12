@@ -14,7 +14,7 @@ Category.create(title: 'Quran')
 Category.create(title: 'Hadith')
 # byebug
 Question.create(ask: 'According to the Five Pillars of Islam, every Muslim must:', answer: 'Give Zakat', asked: 'false', category_id: Category.first.id )
-# byebug
+byebug
 # Question.create(ask: 'I bear witness that there is no deity but God and I bear witness that Muhammad is the messenger and servant of God.', answer: 'Shahada', asked: "false", category_id: catone.id )
 # Question.create(ask: 'One obligation of a Muslim is to make at least one pilgrimage to:', answer: 'Mecca', asked: "false", category_id: catone.id )
 # Question.create(ask: 'During Ramadan Muslims are expected to:', answer: 'Fast from sunrise to sunset', asked: "false", category_id: catone.id )

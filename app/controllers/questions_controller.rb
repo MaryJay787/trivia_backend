@@ -1,9 +1,11 @@
 class QuestionsController < ApplicationController
     def index
-        cat = Category.find(params[:category_id])
+        # cat = Category.find(params[:category_id])
         # id = cat.id
+        ques = Question.all
         # questions = Question.all.find(params[:category_id])
-        render json: {allquestions: cat.questions}
+        render json: {allquestions: ques}
+        byebug
     end
 
     def show
@@ -17,3 +19,4 @@ class QuestionsController < ApplicationController
         params.permit(:ask, :answer, :asked, :category_id)
     end
 end
+
